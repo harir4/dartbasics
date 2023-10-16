@@ -1,18 +1,18 @@
-import 'dart:io';
 
-void main() {
-  int a = 0;
-  int b = 1;
+void main(){
 
-  print('find fibnocci series upto a limit');
-  print('Enter a limit');
-  int d = int.parse(stdin.readLineSync()!);
-  for (int i = 0; i <= d; i++) {
-    print(a);
+  sum(10,30);
+  sum(40,50);
+  sum(70,50);
 
-    int c = a + b;
-
-    a = b;
-    b = c;
-  }
 }
+
+
+int sum(int a , int b){
+
+  int re = a + b;
+  return re;
+}
+
+
+
