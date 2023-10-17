@@ -6,7 +6,6 @@ void main() {
   double radius = double.parse(stdin.readLineSync()!);
   area(radius);
 }
-
 double area(double radius) {
   double result = (3.14 * (radius * radius));
 
